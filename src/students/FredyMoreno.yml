@@ -1,0 +1,81 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fredy
+    last_name: Moreno
+    
+    # Define yourself in 4-5 words
+    motto: freak
+    
+    # focus
+    focus: become a developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: vocation dj, professional computer scientist and hobby freak
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/89130298?v=4
+
+    # Contact Information
+    email: info@fredymoreno.es #optional
+    phone: +34 629 605 932 #optional
+    website: https://www.fredymoreno.es #optional
+    linkedin: https://www.linkedin.com/in/alfredomv/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/djfredymoreno
+    
+    twitter: https://twitter.com/djfredymoreno #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: low
+
+    # Interests or hobies
+    interests:
+      - item: djing
+
+      - item: music
+
+      - item: technology
+
+# Your previous education
+education:
+    - degree: microinformatics technician in systems and networks
+      university: I.E.S. Maria Moliner (Segovia, Spain)
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2010 - 2012
+      #details: The study area was the most used and basic construction techniques to perform correctly in the work environment (construction projects)
+
+# Your previous job experiences or voluntier
+experiences:
+  8 years working as a computer technician
+
+skills:
+    toolset:
+
+      - name: Javascript & jQuery
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Bootstrap
+        level: 50%
